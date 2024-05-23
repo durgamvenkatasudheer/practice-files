@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>dropdown</title>
+    <style>
+        h1{
+            text-align: center;
+            color: red;
+            text-decoration: underline;
+        }
+        .genres{
+            background-color: black;
+            color:rgb(87, 221, 87);
+            padding: 10px;
+            font-size: medium;
+            border: 3px goldenrod;
+            cursor: pointer;
+        }
+        .press{
+            position: relative;
+          display: inline-block;
+        }
+        .options{
+            position: absolute;
+            background-color: pink;
+            min-width: 180px;
+            box-shadow:0 5px 10px rgb(207, 181, 185);
+            z-index:1;
+            display: none;
+        }
+        .options a{
+            color: black;
+            padding: 14px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .options a:hover{
+          background-color: grey;
+        }
+        .press:hover .options{
+            display: block;
+        }
+        .genres:hover{
+            background-color: indigo;
+        }
+    </style>
+</head>
+<body>
+    <h1>Netflix</h1>
+    <div class="press">
+    <button class="genres">types</button>
+     <div class="options">
+        <a href="#">action</a>
+        <a href="#">comedy</a>
+        <a href="#">thriller</a>
+     </div>
+    </div>
+</body>
+</html>
