@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>page</title>
+    <style>
+        h1{
+            text-align: center;
+            color: blue;
+            text-decoration: underline;
+        }
+        .items{
+            color: green;
+            background-color: black;
+            border: 20px grey;
+            padding: 20px;
+            cursor: pointer;
+        }
+        .one{
+            position: relative;
+            display: inline;
+        }
+        .options{
+            position: absolute;
+            background-color: pink;
+            min-width: 180px;
+            box-shadow:0 5px 10px rgb(207, 181, 185);
+            z-index:1;
+            display: none;
+        }
+        .options a{
+            color: brown;
+            display: block;
+            text-decoration: none;
+            padding: 20px;
+        }
+        .items:hover{
+            background-color: purple;
+        }
+        .options a:hover{
+            background-color: grey;
+        }
+        .one:hover .options{
+            background-color: indigo;
+        }
+    </style>
+</head>
+<body>
+    <h1>Facebook</h1>
+    <div class="one">
+        <button class="items">notifications</button><br>
+        <div class="options">
+            <a href="#">reels</a>
+            <a href="#">saved</a>
+            <a href="#">views</a>
+        </div>
+    </div>
+</body>
+</html>
