@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>drop down</title>
+   <style>
+    .two{
+        background-color: black;
+        color: yellow;
+        cursor: pointer;
+        border: gold;
+        font-size: medium;
+        padding: 30px;
+    }
+    .three a{
+        display: block;
+        color: grey;
+        text-decoration: none;
+        padding: 14px 16px;
+        
+    }
+    .one{
+            position: relative;
+          display: inline-block;
+    }
+    .three{
+            position: absolute;
+            background-color: pink;
+            min-width: 180px;
+            box-shadow:0 5px 10px rgb(207, 181, 185);
+            z-index:1;
+            display: none;
+    }
+    .two:hover{
+        background-color: seagreen;
+    }
+    .three a:hover{
+        background-color: purple;
+    }
+    .one:hover .three { 
+        display: block;
+        
+    }
+   </style>
+</head>
+<body>
+   <div class="one">
+    <button class="two">options</button>
+   <div class="three">   
+        <a href="#">home</a>
+        <a href="#">about us</a>
+        <a href="#">contact</a>
+   </div>
+   </div>
+</body>
+</html>
