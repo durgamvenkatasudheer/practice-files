@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>hover</title>
+    <style>
+        .one{
+            display: inline-block;
+           position: relative;
+        }
+        .two a{
+             color: brown;
+             text-decoration: none;
+             display: block;
+             background-color: purple;
+             padding: 20px;
+        }
+        .two{
+            
+            display: none;
+            z-index: 1;
+            min-width: 180px;
+            box-shadow:0 5px 10px rgb(207, 181, 185);
+        }
+        .hober{
+            color: lightsalmon;
+            padding: 20px;
+            background-color: black;
+        }
+        .hober:hover{
+            background-color: lightseagreen;
+        }
+        .two a:hover{
+            background-color: lightseagreen;
+        }
+        .one:hover .two{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+    <button class="hober">options</button>
+    <div class="two">
+            <a href="#">welcome</a>
+            <a href="#">avaliable</a>
+            <a href="#">room no</a>  
+    </div>
+    </div>
+</body>
+</html>
