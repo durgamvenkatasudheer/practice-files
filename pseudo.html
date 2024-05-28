@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>pseudo class</title>
+    <style>
+        p::first-letter {
+            color: red;
+            font-size: large;
+            text-transform: uppercase;
+            background-color: greenyellow;
+        }
+        p::first-line{
+            color: orange;
+        }
+       h1::before{
+        content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/1024px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg); 
+       }
+       ::selection{
+        color:rgb(255, 115, 0)
+       }
+       ::marker{
+        color: brown;
+        background-color: lightseagreen;
+       }
+    </style>
+</head>
+<body>
+    <h1>pseudo class</h1>
+    <p>this is <i>software</i>  webdevelopment</p>
+    <p>this is <i>software</i> webdevelopment</p>
+    <p>this is <i>software</i> webdevelopment</p><br>
+    <br>
+    <h2>list</h2>
+        <li>hai</li>
+        <li>how r u</li>
+        <li> your welcome</li>
+</body>
+</html>
