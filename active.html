@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>active</title>
+     <style>
+        ul{
+            
+            padding: 20px;
+            width: 30px;
+            list-style-type: none;
+        }
+        li{
+            display: inline;
+            background-color: red;
+        }
+        li a{
+           
+            color: orange;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: gray;
+        }
+        li a.one{
+            background-color: lightgreen;
+            color: white;
+        }
+        li.a:hover:not(.active){
+            background-color: lightgreen;
+            color: white;
+        }
+     </style>
+</head>
+<body>
+    <h1>active</h1>
+    <ul>
+        <li><a class="one" href="home">home</a></li>
+        <li><a href="about">about</a></li>
+        <li><a href="contact">contact</a></li>
+    </ul>
+</body>
+</html>
