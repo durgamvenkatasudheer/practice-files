@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>flex</title>
+    <style>
+        .one{
+            background-color: grey;
+            display: flex;
+            flex-direction:row-reverse ;
+        }
+        .one>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            width: 50px;
+        }
+        .two{
+            background-color: orange;
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+        .two>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            width: 50px;
+            font-size: medium;
+        }
+        .three{
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+        }
+        .three>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            width: 50px;
+            font-size: medium;
+        }
+        .four{
+            background-color: orange;
+            display: flex;
+            align-items: stretch;
+        }
+        .four>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            width: 50px;
+            font-size: medium;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>flex</h1>
+    <div class="one">
+        <div>sudheer</div>
+        <div>ashok</div>
+        <div>virajith</div>
+        <div>radha</div>
+    </div>
+    <h1>wrap</h1>
+    <div class="two">
+        <div>sudheer</div>
+        <div>ashok</div>
+        <div>virajith</div>
+        <div>radha</div>
+        <div>radha</div><div>radha</div><div>radha</div>
+        </div>
+        <h1>justify-content</h1>
+        <div class="three">
+            <div>sudheer</div>
+            <div>ashok</div>
+            <div>virajith</div>
+            <div>radha</div>
+        </div>
+        <h1>alignitems</h1>
+        <div class="four">
+            <div>sudheer</div>
+            <div>ashok</div>
+            <div>virajith</div>
+            <div>radha</div>
+        </div>
+</body>
+</html>
