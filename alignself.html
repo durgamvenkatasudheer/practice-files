@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>elements</title>
+    <style>
+      .one{
+        display: flex;
+        background-color: orange;
+      }
+      .one>div{
+        background-color: white;
+        padding: 20px;
+        margin: 30px;
+        width: 50px;
+      }
+      .two{
+        display: flex;
+        background-color: orange;
+      }
+      .two>div{
+        background-color: white;
+        padding: 20px;
+        margin: 30px;
+        width: 50px;
+      }
+    </style>
+</head>
+<body>
+    <h1>flex-basis</h1>
+    <div class="one">
+    <div>1</div>
+    <div style="flex-basis: 200px;">2</div>
+    <div>3</div>
+    <div>4</div>
+    </div>
+    <h1>align-self</h1>
+    <div class="two">
+    <div>1</div>
+    <div style="align-self: center;">2</div>
+    <div>3</div>
+    <div>4</div>
+    </div>
+</body>
+</html>
