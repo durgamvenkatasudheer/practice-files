@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>child elements</title>
+    <style>
+           .one{
+            display: flex;
+            background-color: grey;
+           }
+           .one>div{
+            background-color: white;
+            padding: 20px;
+            margin: 30px;
+            
+           }
+           .two{
+            display: flex;
+            background-color: grey;
+           }
+           .two>div{
+            background-color: white;
+            padding: 20px;
+            margin: 30px;
+            
+           }
+    </style>
+</head>
+<body>
+    <h1>flex-grow</h1>
+    <div class="one">
+        <div>sudheer</div>
+        <div style="flex-grow: 8;">virajith</div>
+        <div>ashok</div>
+    </div>
+    <h1>flex-shrink</h1>
+    <div class="two">
+        <div>sudheer</div>
+        <div style="flex-shrink: 0;">virajith</div>
+        <div>ashok</div>
+    </div>
+</body>
+</html>
