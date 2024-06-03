@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: black;
+}
+.menubar{
+    background-color: grey;
+    text-align: center;
+    
+}
+.menubar ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: black;
+}
+.menubar ul li{
+    width: 100px;
+    margin: 15px;
+}
+
+.menubar ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+ul li a.active{
+    background-color: grey;
+    color: white;
+}
+ul li a:hover:not(.active){
+    background-color: grey;
+    color: white;
+}
+
+.one{
+    display: none;
+    
+}
+
+.menubar ul li:hover .one{
+    display: block;
+    position: absolute;
+    background-color: grey;
+   
+}
+.menubar ul li:hover .one ul{
+    display: block;
+}
+
+.menubar ul li:hover .one ul li:hover{
+    background-color: white;
+    color: black;
+    padding:8px;
+    text-decoration: none;
+}
+
+
+
+
+.two{
+    display: none;
+    
+}
+
+.menubar ul li:hover .two{
+    display: block;
+    position: absolute;
+    background-color: grey;
+   
+}
+.menubar ul li:hover .two ul{
+    display: block;
+}
+
+.menubar ul li:hover .two ul li:hover{
+    background-color: white;
+    color: black;
+    padding:8px;
+    text-decoration: none;
+}
+
+
+
+
+.four{
+    display: none;
+    
+}
+
+.menubar ul li:hover .four{
+    display: block;
+    position: absolute;
+    background-color: grey;
+  
+}
+.menubar ul li:hover .four ul{
+    display: block;
+}
+
+.menubar ul li:hover .four ul li:hover{
+    background-color: white;
+    color: black;
+    padding:8px;
+    text-decoration: none;
+}
+
+
+
+.genres{
+    display: none;
+    
+}
+
+.menubar ul li:hover .genres{
+    display: block;
+    position: absolute;
+    background-color: grey;
+   
+}
+.menubar ul li:hover .genres ul{
+    display: block;
+}
+
+.menubar ul li:hover .genres ul li:hover{
+    background-color: white;
+    color: black;
+    padding:8px;
+    text-decoration: none;
+}
+
+.rightbox{
+    margin-left: 85%;
+    border-radius: 20px;
+}
+.serchbox{
+    color: black;
+}
+
+.signinbox{
+    margin-left: 5%;
+    border-radius: 25px;
+}
+.five a{
+    text-decoration: none;
+    color: black;
+}
+
+.six{
+    display: none;
+}
+
+
+.five:hover .six{
+    display: block;
+    position: absolute;
+    background-color: grey;
+   
+}
+.five:hover .six ul{
+    display: block;
+}
+
+.five:hover .six ul li:hover{
+    background-color: white;
+    color: black;
+    padding:8px;
+    text-decoration: none;
+}
+
+
+ 
