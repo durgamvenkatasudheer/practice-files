@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>prime navigation bar</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .two a{
+            display: block;
+            background-color: grey;
+            color: black;
+            text-decoration: none;
+            padding:8px;
+            width: 80px;
+           
+        }
+        .two{
+            display: none;
+        }
+        .one{
+            color: #202020;
+          cursor: pointer;
+          display: inline-block;
+          padding: 8px;
+        }
+        .one:hover{
+            background-color: white;
+        }
+        .two a:hover{
+            background-color: white;
+        }
+        .container:hover .two {
+            display:block
+        }
+
+
+        .four a{
+            display: block;
+            background-color: grey;
+            color: black;
+            text-decoration: none;
+            padding:8px;
+            width: 80px;
+           
+        }
+        .four{
+            display: none;
+        }
+        .three{
+            color: #202020;
+          cursor: pointer;
+          display: inline-block;
+          padding: 8px;
+          position: relative;
+          margin: 5px 100px 100px 111px;
+        }
+        .three:hover{
+            background-color: white;
+        }
+        .four a:hover{
+            background-color: white;
+        }
+        .container2:hover .four {
+            display:block
+        }
+    </style>
+</head>
+<body>
+       <nav>
+        <div class="container">
+         <button class="one">Home</button>
+         <div class="two">
+            <ul>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">TV shows</a></li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="container2">
+            <button class="three">Home</button>
+            <div class="four">
+               <a href="#">All</a>
+               <a href="#">Rent</a>
+               <a href="#">channels</a>
+           </div>
+           </div>
+       </nav>
+</body>
+</html>
