@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>navbar</title>
+    <style>
+        body{
+          background-color: grey;
+         
+        }
+        .one{
+            background-color: orange;
+
+        }
+        nav ul .one li  {
+            display:inline-flex;
+            list-style-type: none;
+        }
+        .one li a{
+            text-decoration: none;
+            padding: 20px;
+            color: black;
+        }
+        ul li a.active{
+          color: white;
+        }
+        ul li a:hover:not(.active){
+            color: white;
+        }
+    </style>
+</head>
+<body>
+   <nav>
+    <ul>
+        <div class="one">
+        <li><a class="active" href="#">home</a></li>
+        <li><a href="#">movies</a></li>
+        <li><a href="#">shows</a></li>
+        <li><a href="#">siff</a></li>
+        <li><a href="#">watch for free</a></li>
+        <li><a href="#">my ahaa</a></li>
+        </div>
+    </ul>
+   </nav>
+</body>
+</html>
