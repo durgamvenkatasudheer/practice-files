@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>switch</title>
+</head>
+<body>
+    <div>
+        <script>
+         const days=7;
+         let day;
+         switch(true){
+            case days>1:day="monday"
+            break;
+            case days>2:day="tuesday"
+            break;
+            case days>3:day="wednesday"
+            break;
+            case days>4:day="thursday"
+            break;
+            case days>5:day="friday"
+            break;
+            case days>6:day="saturday"
+            break;
+            case days>7:day="sunday"
+            break;
+            default:day="weekend"
+         }
+         document.write("day"+ day);
+        </script>
+    </div>
+</body>
+</html>
