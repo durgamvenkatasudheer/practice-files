@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Arrays</title>
+</head>
+<body>
+  <script>
+    //literal
+  let cars=["innova","rolls royce","thar","jaguar"] ;
+  document.write(cars);
+  //constructor
+  let food=new Array("sushi","french fries","chicken");
+    document.write(food);
+    //modify
+    food[1]="burger";
+    document.write(food);
+   //accessing array elements
+   let firstItem=food[0];
+   document.write(firstItem);
+
+   let lastItem=cars[cars.length-1];
+   document.write(lastItem)
+   //adding the element
+   cars.push("swift")
+    document.write(cars);
+
+    cars.unshift("lamborghini");
+    document.write(cars);
+//deleting the elements
+
+    cars.splice(0,2,4);
+    document.write(cars);
+  </script>
+</body>
+</html>
