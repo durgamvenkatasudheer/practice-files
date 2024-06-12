@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+   <style>
+    .one ul{
+        display: flex;
+    }
+   
+    .one ul li a{
+        text-decoration: none;
+        color:lightseagreen;
+        padding: 50px;
+      
+    }
+    .one ul li{
+        list-style-type: none;
+    }
+    .one ul li a:hover{
+        color: black;
+    }
+   .two{
+    display: none;
+   }
+   .one ul li:hover .two{
+    display: block;
+   }
+   
+   </style>
+</head>
+<body>
+    <div class="one">
+    <ul>
+   <li><a href="#">india</a>
+   <div class="two" >
+    <ul>
+  <li><a href="#">delhi</a></li> 
+    </ul>
+    </div>
+   </li>
+   <li><a href="#">southkorea</a></li>
+   <li><a href="#">japan</a></li>
+   </ul>
+   </div>
+</body>
+</html>
